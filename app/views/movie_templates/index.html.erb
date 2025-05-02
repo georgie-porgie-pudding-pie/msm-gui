@@ -1,6 +1,37 @@
 <h1>
   List of all movies
 </h1>
+<hr>
+
+<form action="/new_movie" method="post">
+  <div>
+    <label for="title">Title</label>
+    <input id="title" type="text" name="title">
+  </div>
+  <div>
+    <label for="year">Year</label>
+    <input id="year" type="integer" name="year">
+  </div>
+  <div>
+    <label for="dur">Duration</label>
+    <input id="dur" type="integer" name="dur">
+  </div>
+  <div>
+    <label for="desc">Description</label>
+    <textarea id="desc" name="desc"></textarea>
+  </div>
+  <div>
+    <label for="image">Image</label>
+    <input id="image" type="text" name="image">
+  </div>
+  <div>
+    <label for="did">Director ID</label>
+    <input id="did" type="integer" name="did">
+  </div>
+  <div>
+  <button>Create movie</button>
+  </div>
+</form>
 
 <hr>
 
